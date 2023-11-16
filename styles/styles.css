@@ -43,6 +43,7 @@
      color: #333;
      width: 20em;
      text-align: center;
+     position: relative;
  }
  
  aside img {
@@ -75,9 +76,9 @@
      color: #36013f;
  }
  
- aside h2 {
-     position: absolute;
-     top: 55px;
-     left: 100px;
- }
+aside h2 {
+    position: absolute;
+    top: -6px;
+    left: 135px;
+}
  
