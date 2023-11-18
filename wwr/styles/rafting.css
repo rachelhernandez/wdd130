@@ -1,0 +1,125 @@
+/* rafting.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+/* Define CSS variables in the :root pseudo-class */
+:root {
+    --primary-color: #57D2F4;
+    --secondary-color: #F9A620;
+    --accent1-color: #548C2F;
+    --accent2-color: #FFD449;
+    --heading-font: 'PT Serif', sans-serif;
+    --paragraph-font: 'PT Serif', sans-serif;
+    --nav-background-color: #4281A4;
+    --nav-link-color: #48A9A6;
+    --nav-hover-link-color: #C1666B;
+    --nav-hover-background-color: #D4B483;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: #FFD449; /* Set the color to dark yellow */
+}
+
+p {
+    padding: 25px;
+    color: var(--secondary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero-content, article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-content {
+    color: rgb(22, 98, 95);
+    text-align: center;
+}
+
+h1 {
+    position: absolute;
+    top: 20%; /* Adjust the top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+article {
+    position: absolute;
+    top: 80%; /* Adjust the top position as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+p, article img {
+    color: #48A9A6;
+}
+
+article img {
+    float: right;
+    margin: 0 0 10px 10px;
+    max-width: 100px; /* Adjust the size of the client image as needed */
+    height: auto;
+}
+
+nav.sociallinks {
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+}
+
+nav.sociallinks a {
+    display: block;
+    margin: 0 10px;
+}
