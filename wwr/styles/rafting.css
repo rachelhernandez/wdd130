@@ -1,9 +1,5 @@
-/* rafting.css */
-
-/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
 
-/* Define CSS variables in the :root pseudo-class */
 :root {
     --primary-color: #57D2F4;
     --secondary-color: #F9A620;
@@ -26,7 +22,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: #FFD449; /* Set the color to dark yellow */
+    color: #FFD449; 
 }
 
 p {
@@ -109,7 +105,7 @@ p, article img {
 article img {
     float: right;
     margin: 0 0 10px 10px;
-    max-width: 100px; /* Adjust the size of the client image as needed */
+    max-width: 300px; 
     height: auto;
 }
 
