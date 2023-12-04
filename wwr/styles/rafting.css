@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@300&display=swap");
 
 :root {
-    --primary-color: #FFA500; /* Change to orange color */
-    --secondary-color: #164a5f;
-    --accent1-color: #9EE493;
-    --accent2-color: #F9A620;
-    --accent3-color: #B4CCB9;
+    --primary-color: #FFA500; /* Orange color */
+    --secondary-color: #1C2B3D; /* Dark blue-gray for text */
+    --accent1-color: #6FAF5A; /* Green accent */
+    --accent2-color: #FF8C00; /* Dark orange accent */
+    --accent3-color: #A2B6A6; /* Light gray-green accent */
 
     --heading-font: "Montserrat", sans-serif;
     --paragraph-font: "Open Sans", sans-serif;
 
     --nav-background-color: #4281A4;
-    --nav-link-color: #B4CCB9;
+    --nav-link-color: #D4E3ED; /* Light blue-gray for nav links */
     --nav-hover-link-color: #F9A620;
-    --nav-hover-background-color: #D4B483;
+    --nav-hover-background-color: #1C2B3D; /* Dark blue-gray on hover */
 }
 
 header {
