@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - The Rapids</title>
+    <meta name="description" content="Contact page for White Water Rafting Adventures where you can contact staff, set up a meeting, and ask questions.">
+    <meta name="author" content="Rachel Hernandez">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+      <img src="images/logo.jpeg" alt="Whitewater Rafting Logo">
+      <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact">
+            <h1>Contact Us</h1>
+            <p>Contact us here!</p>
+        </div>
+        <div class="info">
+            <aside class="data">
+                <h2>Company Information</h2>
+                <h3>Rigby, Idaho</h3>
+                <p>7730 Brandywine Drive, Rigby, ID 83442</p>
+                <p>Email: support@whitewaterraft.com</p>
+                <p>Phone Number: 123-456-7890</p>
+            </aside>
+            <aside class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2320.4764392500683!2d-111.90341647786214!3d43.69179261234908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1701707493310!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                width="600" height="550" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </aside>
+        </div>
+        <div class="employees">
+            <h2>Contact Our Employees!</h2>
+            <div>
+                <figure>
+                    <img src="images/employee-desk.jpg" alt="Employee 1">
+                    <figcaption>We have employees to help explain our purpose, prices, and everything in-between of White Water Rapids Adventures</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-man.jpg" alt="Employee 2">
+                    <figcaption>Need help with refunds or queries? We can help!</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-rep.jpg" alt="Employee 3">
+                    <figcaption>Want to set up an appointment or plan your trip? Contact us!</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="contact-form">
+          <h2>Contact Form</h2>
+          <form action="submit_form.php" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+  
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+  
+              <label for="purpose">Purpose of Message:</label>
+              <div id="purpose">
+                  <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                  <label for="general">General Inquiry</label>
+  
+                  <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                  <label for="reservation">Reservation Question</label>
+  
+                  <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                  <label for="suggestion">Website Suggestion</label>
+              </div>
+  
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+  
+              <input type="checkbox" id="subscribe" name="subscribe" value="true">
+              <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+  
+              <button type="submit">Submit</button>
+          </form>
+      </div>
+    </main>
+    <footer>
+        <p>©2023 🌸 White Water Rafting Adventures 🌸 Rachel Hernandez</p>
+        <nav class="sociallinks">
+          <a href="https://facebook.com">
+            <img src="images/facebook.png" alt="Facebook">
+          </a>
+          <a href="https://tiktok.com">
+            <img src="images/tiktok.png" alt="TikTok">
+          </a>
+          <a href="https://instagram.com">
+            <img src="images/instagram.png" alt="Instagram">
+          </a>
+        </nav>
+    </footer>
+</body>
+</html>
