@@ -7,13 +7,6 @@
     <meta name="description" content="Contact page for White Water Rafting Adventures where you can contact staff, set up a meeting, and ask questions.">
     <meta name="author" content="Rachel Hernandez">
     <link rel="stylesheet" href="styles/rafting.css">
-    <style>
-        .map iframe {
-            width: 70%;
-            height: 100%;
-            border: 0;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -70,17 +63,21 @@
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="purpose">Purpose of Message:</label>
-                <div id="purpose">
-                    <input type="radio" id="general" name="purpose" value="General Inquiry" required>
-                    <label for="general">General Inquiry</label>
-
-                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
-                    <label for="reservation">Reservation Question</label>
-
-                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
-                    <label for="suggestion">Website Suggestion</label>
-                </div>
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <div>
+                        <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                        <label for="general">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </fieldset>
 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
