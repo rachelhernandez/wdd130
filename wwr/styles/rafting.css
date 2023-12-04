@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@300&display=swap");
 
 :root {
-    --primary-color: #57D2F4;
+    --primary-color: #FFA500; /* Change to orange color */
     --secondary-color: #164a5f;
     --accent1-color: #9EE493;
     --accent2-color: #F9A620;
@@ -18,7 +18,7 @@
 
 header {
     display: grid;
-	align-items: center;
+    align-items: center;
     background-color: var(--nav-background-color);
 }
 
@@ -31,18 +31,23 @@ header img {
 }
 
 .navigation {
-	display: flex;
-	list-style: none;
+    display: flex;
+    list-style: none;
 }
 
 .navigation a {
-	display: block;
-	padding: 20px;
-	text-decoration: none;
-    color: var(--nav-link-color);
+    display: block;
+    padding: 20px;
+    text-decoration: none;
     font-family: var(--paragraph-font);
     font-size: 1.9rem;
     font-weight: 700;
+    color: orange; /* Set the color to orange */
+}
+
+.navigation a,
+.navigation a:visited {
+    color: orange; /* Set the color to orange for both unvisited and visited links */
 }
 
 .navigation a:hover {
