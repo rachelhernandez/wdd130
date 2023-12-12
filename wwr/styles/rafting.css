@@ -136,6 +136,33 @@ h1, h2 {
     color: var(--secondary-color);
 }
 
+/* Additional styles for the trip descriptions */
+.trip-description {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.trip-details {
+    flex: 0 1 calc(45% - 20px); /* Adjust the width as needed */
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.trip-details img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.details {
+    padding: 0 10px;
+}
+
 /* Table Styles */
 .trip-table {
     margin-top: 20px;
