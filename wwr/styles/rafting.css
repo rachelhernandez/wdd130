@@ -166,6 +166,28 @@ a {
     height: auto;
 }
 
+/* Table Styles */
+.trip-table {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--accent2-color);
+    color: white;
+}
+
 footer {
     display: flex;
     padding: 30px;
@@ -183,10 +205,4 @@ footer p {
 footer img {
     width: 80px;
     height: auto;
-}
-
-.map iframe {
-    width: 60%;
-    height: 100%;
-    border: 0;
 }
