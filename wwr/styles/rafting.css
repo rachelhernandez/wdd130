@@ -180,7 +180,7 @@ th, td {
 
 th {
     background-color: var(--accent2-color);
-    color: white;
+    color: black;
 }
 
 footer {
@@ -208,5 +208,9 @@ footer img {
 }
 
 .grid-item p {
+    color: black;
+}
+
+.trip-table td {
     color: black;
 }
