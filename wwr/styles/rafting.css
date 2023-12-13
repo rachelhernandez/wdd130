@@ -61,13 +61,12 @@ header img {
     background-color: var(--nav-hover-background-color);
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
     text-align: center;
 }
 
-/* New Styles for Home Page Components */
 .hero {
     position: relative;
     width: 100%;
@@ -87,7 +86,7 @@ h1, h2 {
     left: 50%;
     transform: translateX(-50%);
     background-color: var(--accent1-color);
-    color: white;
+    color: black;
     padding: 10px;
     font-size: 2rem;
 }
@@ -119,7 +118,7 @@ h1, h2 {
     font-size: 1.2rem;
     text-decoration: none;
     background-color: var(--accent2-color);
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 5px;
 }
 
@@ -134,12 +133,6 @@ h1, h2 {
     padding: 20px;
     background-color: var(--accent1-color);
     color: var(--secondary-color);
-    text-align: center;
-}
-
-.grid-item p {
-    margin-top: 10px;
-    text-align: center;
 }
 
 /* Additional styles for the trip descriptions */
@@ -208,4 +201,10 @@ footer p {
 footer img {
     width: 80px;
     height: auto;
+}
+
+/* Additional styles for the centered text */
+.call-to-action h2,
+.grid-item h3 {
+    color: black;
 }
