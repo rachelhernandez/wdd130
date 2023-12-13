@@ -135,7 +135,6 @@ h1, h2, h3 {
     color: var(--secondary-color);
 }
 
-/* Additional styles for the trip descriptions */
 .trip-description {
     display: flex;
     justify-content: space-around;
@@ -203,8 +202,11 @@ footer img {
     height: auto;
 }
 
-/* Additional styles for the centered text */
 .call-to-action h2,
 .grid-item h3 {
+    color: black;
+}
+
+.grid-item p {
     color: black;
 }
