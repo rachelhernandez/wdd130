@@ -129,6 +129,7 @@ h1, h2, h3 {
 }
 
 .grid-item {
+    text-align: center; 
     border: 1px solid #ddd;
     padding: 20px;
     background-color: var(--accent1-color);
